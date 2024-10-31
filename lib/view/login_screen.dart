@@ -228,7 +228,6 @@ class LoginScreenState extends State<LoginScreen> {
         return OTPDialog(
           onEnter: (String otp) {
             Navigator.of(context).pop();
-
             if (otp == "123123" || otp == "123456") {
               Navigator.of(context).pushReplacement(
                 MaterialPageRoute(

@@ -14,8 +14,8 @@ class SocialScreenState extends State<SocialScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Socials'),
-      ), //AppBa
+        title: const Text("Socials"),
+      ),
       body: Column(
         children: [
           Center(
